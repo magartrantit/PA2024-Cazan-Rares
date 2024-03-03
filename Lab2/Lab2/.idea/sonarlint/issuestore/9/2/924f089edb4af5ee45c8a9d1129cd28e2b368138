@@ -1,0 +1,11 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ãªžõ8ôë²žà1
+š
+java:S1598"}This file "Main.java" should be located in "Lab2_Java_Package" directory, not in "C:\Users\Rares\Desktop\Java\Lab2\Lab2\src".(òÕ¢¸8õë²žà1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÕ¢¸8öë²žà1
+Q
+java:S1172"/Remove this unused method parameter "vehicles".(›Ê®Çüÿÿÿÿ8ÿë²žà1
+P
+java:S1172=".Remove this unused method parameter "clients".(ÍÈ¾´ûÿÿÿÿ8‚ì²žà1
+M	java:S106©"+Replace this use of System.out by a logger.(ò½š§ÿÿÿÿÿ8‡ì²žà1
+G	java:S106ª"+Replace this use of System.out by a logger.(¦¤ž)8‡ì²žà1

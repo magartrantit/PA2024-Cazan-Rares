@@ -1,0 +1,11 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ãªõ8êÌãà1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÕ¢¸8ëÌãà1
+Q
+java:S1172"/Remove this unused method parameter "vehicles".(›Ê®Çüÿÿÿÿ8òÌãà1
+P
+java:S1172=".Remove this unused method parameter "clients".(ÍÈ¾´ûÿÿÿÿ8õÌãà1
+I
+java:S1172Œ"+Remove this unused method parameter "args".(Î½ºğ8øÌãà1
+M	java:S106©"+Replace this use of System.out by a logger.(ò½š§ÿÿÿÿÿ8àíèà1
+G	java:S106ª"+Replace this use of System.out by a logger.(¦¤)8àíèà1

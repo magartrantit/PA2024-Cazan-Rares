@@ -1,3 +1,33 @@
 
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+\
+,src/mypackage/compulsory/Lab2Compulsory.java,f\e\fec97d4435b913fd4c3cad75291900493fd9eb79
+U
+%src/mypackage/compulsory/Vehicle.java,3\2\32f8dc34574a4e876b19cd6452316d52f709a25c
+S
+#src/mypackage/compulsory/Depot.java,6\e\6ed1bc7741a1d207c4e0651e922b70ff007216e0
+X
+(src/mypackage/compulsory/ClientType.java,0\7\07d68d9d0327b611d5dfad382ed0759969fa3d7e
+T
+$src/mypackage/compulsory/Client.java,4\e\4ed6a9f560e2d6cab6020ed56971915b439bd45b
+X
+(src/mypackage/homework/Lab2Homework.java,1\4\1466ac6496a191559410e9ede76a45fca5b35c9f
 V
-&src/mypackage/lab2/Lab2Compulsory.java,4\a\4a63b470bba1bbf8bc80bf1528ab8b7108c6e1cf
+&src/mypackage/homework/ClientType.java,f\5\f51aa3f9ba2604e65f83a94d46d14113670c1732
+R
+"src/mypackage/homework/Client.java,f\1\f17a17ee13b150d8310e18530ba1bd723268fdb2
+S
+#src/mypackage/homework/Vehicle.java,1\9\1936b6c2cdcc36a2368922bf913bdf2086715854
+Q
+!src/mypackage/homework/Depot.java,6\8\68de9dc950039112c34104612738695b25423ee5
+S
+#src/mypackage/homework/Problem.java,0\9\096de02a08d7613985265e3205bd84c968e79ba5
+T
+$src/mypackage/homework/Solution.java,5\7\574c2be3a416bbf72bce50aeeeed1f32dd9b62d7
+R
+"src/mypackage/homework/Trucks.java,2\d\2d84939e031f49eba1b3020c577c0c99512c0b41
+R
+"src/mypackage/homework/Drones.java,3\9\39ce3e141ffca47236d068a798de3e37c0adbcc1
+P
+ src/mypackage/homework/Tour.java,7\e\7e3f893d3879d2a41e344e5d505ab4da41601ec8

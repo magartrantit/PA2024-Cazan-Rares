@@ -1,15 +1,15 @@
 
 †
-java:S1854)"CRemove this useless assignment to local variable "clientAllocated".(·¬Şá8š˜Ù â1J$ac7e99af-a7fb-4f9a-8ef6-87e54976bc2c
+java:S1854)"CRemove this useless assignment to local variable "clientAllocated".(·¬Şá8š˜Ù â1J$72a1c4b8-f76a-4ceb-acb5-93291fdbd4ac
 ˆ
-java:S1854("ERemove this useless assignment to local variable "remainingCapacity".(Ï¦• 8š˜Ù â1J$d8662223-f1fa-4b6b-82a8-daeb9ab0ec51
+java:S1854("ERemove this useless assignment to local variable "remainingCapacity".(Ï¦• 8š˜Ù â1J$4fc092df-8423-44bb-aaa2-cbba3fb480b8
 w
-java:S1481"4Remove this unused "clientAllocated" local variable.(ÛÊ¨8›˜Ù â1J$82e8003c-fa0b-4120-a4b5-bfb328e2aaeb
+java:S1481"4Remove this unused "clientAllocated" local variable.(ÛÊ¨8›˜Ù â1J$f289f2bc-572d-4494-8d4b-92be25b91424
 ‡
-java:S6201E"FReplace this instanceof check and cast with 'instanceof Trucks trucks'(¥³8˜Ù â1J$175a79a8-4c70-4cc1-80e7-8568c91541ae
+java:S6201E"FReplace this instanceof check and cast with 'instanceof Trucks trucks'(¥³8˜Ù â1J$c6f8af00-23df-42da-b213-ab995c004926
 
-java:S6201G"FReplace this instanceof check and cast with 'instanceof Drones drones'(³™Áîıÿÿÿÿ8˜Ù â1J$d577950b-db05-4aed-87ac-abb7f2145e4b
-n	java:S106•"+Replace this use of System.out by a logger.(­Ïç¸8¢˜Ù â1J$7b91d6a3-4734-4ae8-ac39-57a9d1ad64ca
-n	java:S106–"+Replace this use of System.out by a logger.(®Ò¦8£˜Ù â1J$0cd58d06-bbfe-4f1c-81d1-6196b0aae0cb
-s	java:S106˜"+Replace this use of System.out by a logger.(ÕéŸúÿÿÿÿ8£˜Ù â1J$1cd82ccd-c1a5-406d-b38f-53e37d724e64
-s	java:S106š"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8£˜Ù â1J$d64c9b3e-33d5-45ed-9233-3fa5184635d0
+java:S6201G"FReplace this instanceof check and cast with 'instanceof Drones drones'(³™Áîıÿÿÿÿ8˜Ù â1J$337a54e3-29e1-47a0-a022-1c7894b7a4ff
+n	java:S106•"+Replace this use of System.out by a logger.(­Ïç¸8¢˜Ù â1J$bdd58fa6-103b-486e-9ee7-ed087135d3f1
+n	java:S106–"+Replace this use of System.out by a logger.(®Ò¦8£˜Ù â1J$127e9a1a-9f0e-46b6-9b4e-a01504751510
+s	java:S106˜"+Replace this use of System.out by a logger.(ÕéŸúÿÿÿÿ8£˜Ù â1J$b648250e-f18c-4da5-a425-308681838818
+s	java:S106š"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8£˜Ù â1J$978dea60-d8c8-4ef5-90e8-c0cdffe2d455

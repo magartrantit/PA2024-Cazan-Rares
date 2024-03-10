@@ -15,6 +15,21 @@ public class Trucks extends Vehicle {
         this.capacity = capacity;
     }
 
+    // Inside the Vehicle class
+
+    public boolean canServe(Client client) {
+        if (clients == null)
+            return true;
+
+        // Check if adding the client will exceed the vehicle's capacity
+        int totalDemand = client.getDemand();
+        for (Client c : clients) {
+            totalDemand += c.getDemand();
+        }
+        return totalDemand <= capacity;
+    }
+
+
     /**
      * Metoda care returneaza capacitatea camionului
      *

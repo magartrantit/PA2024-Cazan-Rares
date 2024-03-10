@@ -31,3 +31,5 @@ R
 "src/mypackage/homework/Drones.java,3\9\39ce3e141ffca47236d068a798de3e37c0adbcc1
 P
  src/mypackage/homework/Tour.java,7\e\7e3f893d3879d2a41e344e5d505ab4da41601ec8
+R
+"src/mypackage/bonus/Lab2Bonus.java,2\5\256fd74fc77483059e341944f5fb53a144ab59b7

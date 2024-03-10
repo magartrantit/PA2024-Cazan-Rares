@@ -11,7 +11,13 @@ public abstract class Vehicle {
     //variabile
     protected String model;
     protected String color;
-    private Depot depot;
+    protected Depot depot;
+    protected Client client;
+    protected Client[] clients;
+    protected int currentN;
+    protected int currentM;
+    protected int startM;
+    protected int startN;
 
     //constructor
 
@@ -22,8 +28,64 @@ public abstract class Vehicle {
 
     }
 
+    public void addClient(Client client) {
+        if (clients == null) {
+            clients = new Client[1];
+            clients[0] = client;
+        } else {
+            Client[] newClients = new Client[clients.length + 1];
+            System.arraycopy(clients, 0, newClients, 0, clients.length);
+            newClients[clients.length] = client;
+            clients = newClients;
+        }
+    }
+
+    public Client[] getClients() {
+        return clients;
+    }
+
+
+    public abstract boolean canServe(Client client);
+
 
     //getter si setter
+
+
+    /**
+     * Setter pentru poziția M de start a vehiculului
+     *
+     * @return poziția M de start a vehiculului
+     */
+    public void setStartM(int startM) {
+        this.startM = startM;
+    }
+
+    /**
+     * Setter pentru poziția N de start a vehiculului
+     *
+     * @return poziția M de start a vehiculului
+     */
+    public void setStartN(int startN) {
+        this.startN = startN;
+    }
+
+    /**
+     * Setter pentru poziția M curentă a vehiculului
+     *
+     * @return poziția M curentă a vehiculului
+     */
+    public void setCurrentM(int currentM) {
+        this.currentM = currentM;
+    }
+
+    /**
+     * Setter pentru poziția N curentă a vehiculului
+     *
+     * @param currentN
+     */
+    public void setCurrentN(int currentN) {
+        this.currentN = currentN;
+    }
 
     /**
      * Getter pentru modelul vehiculului
@@ -44,10 +106,21 @@ public abstract class Vehicle {
     }
 
     /**
+     * Setter pentru clientul vehiculului
+     *
+     * @param client clientul vehiculului
+     */
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    /**
      * Getter pentru culoarea vehiculului
      *
      * @return culoarea vehiculului
      */
+
+
     public String getColor() {
         return color;
     }

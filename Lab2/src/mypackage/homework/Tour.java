@@ -6,6 +6,7 @@ package mypackage.homework;
 public class Tour {
     private Vehicle vehicle;
     private Client[] clients;
+    private Client client;
 
     /**
      * Constructor
@@ -16,6 +17,15 @@ public class Tour {
     public Tour(Vehicle vehicle, Client[] clients) {
         this.vehicle = vehicle;
         this.clients = clients;
+    }
+
+    public Tour(Vehicle vehicle, Client client) {
+        this.vehicle = vehicle;
+        this.client = client;
+    }
+
+    public Client getClient() {
+        return client;
     }
 
     /**

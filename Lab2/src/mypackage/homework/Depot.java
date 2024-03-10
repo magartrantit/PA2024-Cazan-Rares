@@ -12,6 +12,9 @@ public class Depot {
     private String name;
     private String location;
     private List<mypackage.homework.Vehicle> vehicles;
+    private int id;
+    private int posN;
+    private int posM;
 
     //constructor
 
@@ -35,6 +38,60 @@ public class Depot {
     }
 
     //getter si setter
+
+    /**
+     * Setter pentru pozitia M a depozitului
+     *
+     * @return pozitia M a depozitului
+     */
+    public void setPosM(int posM) {
+        this.posM = posM;
+    }
+
+    /**
+     * Setter pentru pozitia N a depozitului
+     *
+     * @return pozitia N a depozitului
+     */
+    public void setPosN(int posN) {
+        this.posN = posN;
+    }
+
+    /**
+     * Getter pentru pozitia M a depozitului
+     *
+     * @return pozitia M a depozitului
+     */
+    public int getPosM() {
+        return posM;
+    }
+
+    /**
+     * Getter pentru pozitia N a depozitului
+     *
+     * @return pozitia N a depozitului
+     */
+    public int getPosN() {
+        return posN;
+    }
+
+    /**
+     * Getter pentru id-ul depozitului
+     *
+     * @return id-ul depozitului
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * Setter pentru id-ul depozitului
+     *
+     * @param id id-ul depozitului
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
 
     /**
      * Getter pentru numele depozitului

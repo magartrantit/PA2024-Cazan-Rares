@@ -5,4 +5,4 @@ package mypackage.homework;
 /**
  * Enumeratie pentru tipul clientilor
  */
-enum ClientType {REGULAR, PREMIUM}
+public enum ClientType {REGULAR, PREMIUM}

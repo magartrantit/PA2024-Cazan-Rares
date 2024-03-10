@@ -1,0 +1,17 @@
+
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ö‚ñ¢úÿÿÿÿ8Ñ¸ïÎâ1J$d30c5d65-4bc6-4537-9000-8c7ed38f952d
+•
+java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(Çµí‘8Ø¸ïÎâ1J$a50b2e98-1f9a-410d-bc4e-65cbd0dd41b8
+m	java:S106‡"+Replace this use of System.out by a logger.(û‹Ê8à¸ïÎâ1J$ff6017ec-d5d6-4392-9015-1abfcbfed9b9
+s	java:S106‰"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8à¸ïÎâ1J$0400ed1e-4a37-4abd-a94e-76543dbccf2c
+s	java:S106Œ"+Replace this use of System.out by a logger.(ÀûÅšøÿÿÿÿ8à¸ïÎâ1J$d4dfe5ac-fba3-409e-a90b-85242842df0f
+s	java:S106"+Replace this use of System.out by a logger.(˜ıù‹üÿÿÿÿ8à¸ïÎâ1J$5407604f-d9d2-4593-af16-a8ca7aff750d
+s	java:S106¹"+Replace this use of System.out by a logger.(ÓÇè˜şÿÿÿÿ8ã¸ïÎâ1J$f634c22c-f8e1-487a-8719-2c8e8df42a6a
+n	java:S106¿"+Replace this use of System.out by a logger.(›ŒÒá8ã¸ïÎâ1J$6187dd3c-444e-4d48-9541-aebf569abd33
+s	java:S106À"+Replace this use of System.out by a logger.(´û»Èÿÿÿÿÿ8ã¸ïÎâ1J$2be6f5bb-f193-4b82-9c17-8021dc4d23c8
+n	java:S106Ã"+Replace this use of System.out by a logger.(òÆÙÕ8ä¸ïÎâ1J$1d62c767-7099-4f46-8475-71490189276b
+n	java:S106Æ"+Replace this use of System.out by a logger.(æ«¥¤8ä¸ïÎâ1J$5f94fb91-73fc-4990-b3f8-73c1267b342c
+s	java:S106È"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ä¸ïÎâ1J$d9c8f7e3-693c-4352-95b2-0591c29537bd
+Š
+java:S6541?"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 101 to 64, Complexity from 25 to 14, Nesting Level from 4 to 2, Number of Variables from 32 to 6.(Çµí‘8å¸ïÎâ1J$d71765e2-141b-404e-acdf-2f01384a965c

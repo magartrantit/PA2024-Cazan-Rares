@@ -25,6 +25,17 @@ public class Solution {
     }
 
     /**
+     * Metoda care printeaza clientii vizitati
+     */
+    public void printVisited() {
+        for (Tour tour : tours) {
+            Vehicle vehicle = tour.getVehicle();
+            Client client = tour.getClient();
+            System.out.println("Clientul " + client.getName() + " a fost vizitat de vehiculul " + vehicle.getModel());
+        }
+    }
+
+    /**
      * Metoda care seteaza turele
      *
      * @param tours array-ul de ture

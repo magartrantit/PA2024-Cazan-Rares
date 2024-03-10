@@ -7,10 +7,14 @@ import java.util.Objects;
  */
 public class Client {
     //variabile
+    private int demand;
     private ClientType type;
     private String name;
     private int visitingIntervalStart;
     private int visitingIntervalEnd;
+    private int id;
+    private int posN;
+    private int posM;
 
     /**
      * Constructor
@@ -20,6 +24,68 @@ public class Client {
     }
 
     //getter si setter
+
+    /**
+     * Setter pentru pozitia M a clientului
+     *
+     * @return pozitia M a clientului
+     */
+    public void setPosM(int posM) {
+        this.posM = posM;
+    }
+
+    /**
+     * Setter pentru pozitia N a clientului
+     *
+     * @return pozitia N a clientului
+     */
+    public void setPosN(int posN) {
+        this.posN = posN;
+    }
+
+    /**
+     * Getter pentru pozitia M a clientului
+     *
+     * @return pozitia M a clientului
+     */
+    public int getPosM() {
+        return posM;
+    }
+
+    /**
+     * Getter pentru pozitia N a clientului
+     *
+     * @return pozitia N a clientului
+     */
+    public int getPosN() {
+        return posN;
+    }
+
+    public void setDemand(int demand) {
+        this.demand = demand;
+    }
+
+    public int getDemand() {
+        return demand;
+    }
+
+    /**
+     * Getter pentru id-ul clientului
+     *
+     * @return id-ul clientului
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * Setter pentru id-ul clientului
+     *
+     * @param id id-ul clientului
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
 
     /**
      * Getter pentru tipul clientului

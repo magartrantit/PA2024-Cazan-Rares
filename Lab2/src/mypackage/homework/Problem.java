@@ -9,6 +9,7 @@ import java.util.List;
 public class Problem {
     private Depot[] depots;
     private Client[] clients;
+    private int[][] costMatrix;
 
     /**
      * Constructor
@@ -19,6 +20,21 @@ public class Problem {
     public Problem(Depot[] depots, Client[] clients) {
         this.depots = depots;
         this.clients = clients;
+    }
+
+    public Problem(Depot[] depots, Client[] clients, int[][] costMatrix) {
+        this.depots = depots;
+        this.clients = clients;
+        this.costMatrix = costMatrix;
+    }
+
+    /**
+     * Getter pentru matricea de costuri
+     *
+     * @return matricea de costuri
+     */
+    public int[][] getCostMatrix() {
+        return costMatrix;
     }
 
     /**

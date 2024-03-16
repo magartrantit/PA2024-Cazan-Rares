@@ -23,6 +23,7 @@ public class Church extends Attraction implements Visitable {
 
     //constructor
     public Church(String name, String description) {
+        this.name = name;
         setName(name);
         this.description = description;
         this.timetable = new HashMap<>();

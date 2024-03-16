@@ -27,3 +27,18 @@
     -În final, se creează un `TravelPlan` și se adaugă atracțiile la acesta pe zilele corespunzătoare. Planul de călătorie este apoi afișat pe ecran.
 
 ## Bonus
+
+Sunt implementate două euristici de colorare a grafurilor, o interfata pentru acestea si o clasa pentru reprezentarea grafului:
+
+1) `DegreeDescendingHeuristic`: Această euristică colorează nodurile în ordinea descrescătoare a gradului lor. Gradul unui nod este numărul de muchii pe care le are.
+
+2) `DSaturHeuristic`: Această euristică colorează nodurile în ordinea descrescătoare a gradului lor de saturație (DSatur). DSatur al unui nod este numărul de culori diferite utilizate de vecinii săi.
+
+3) `Graph`: Aceasta este o clasă care reprezintă un graf. Un graf conține o listă de adiacență care maparează fiecare nod la lista sa de noduri adiacente.
+
+4) `ColoringHeuristic`: Aceasta este o interfață care definește o metodă applyColoring pentru colorarea nodurilor unui graf.
+Ambele euristici utilizează un algoritm lacom pentru a colora nodurile, atribuind prima culoare disponibilă fiecărui nod.
+
+În clasa `Lab3Compulsory`, se creează un obiect `Graph` și se adaugă muchii între atracții. Apoi, se aplică `DegreeDescendingHeuristic` și `DSaturHeuristic` pe graf, iar colorările rezultate sunt afișate în consolă.
+
+Colorările sunt reprezentate ca hărți, cu atracțiile ca chei și culorile ca valori. Culorile sunt reprezentate ca numere întregi, cu diferite numere întregi reprezentând diferite zile ale călătoriei.

@@ -25,3 +25,11 @@ R
 	README.MD,9\6\968e80af9562e09cebe594968b130076952eafe1
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+M
+src/mypackage/lab3/Graph.java,b\0\b033d106543e99dee3b303f2d866806a6d1cb8ed
+Y
+)src/mypackage/lab3/ColoringHeuristic.java,5\e\5ec8bb973e42c815fd9d5dd77e68750a5200075f
+a
+1src/mypackage/lab3/DegreeDescendingHeuristic.java,4\d\4d8b8ea94352120f88e9eb6e3393f9372f92fd79
+W
+'src/mypackage/lab3/DSaturHeuristic.java,8\f\8f26ddeef0496ed94318a7e153b6345291b4b13c

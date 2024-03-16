@@ -20,4 +20,8 @@ public class TimeInterval extends Pair<LocalTime, LocalTime> {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
         return first.format(formatter) + " - " + second.format(formatter);
     }
+
+    public LocalTime getSecond() {
+        return second;
+    }
 }

@@ -15,6 +15,7 @@ public class Statue extends Attraction implements Visitable, Payable {
 
     //constructor
     public Statue(String name, String description) {
+        this.name = name;
         setName(name);
         this.description = description;
         this.timetable = new HashMap<>();

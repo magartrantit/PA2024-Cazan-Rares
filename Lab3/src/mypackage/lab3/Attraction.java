@@ -1,8 +1,12 @@
 package mypackage.lab3;
 
+import java.time.DayOfWeek;
+import java.util.Map;
+
 //clasa abstracta Attraction pentru atractii
 public abstract class Attraction implements Comparable<Attraction> {
     private String name;
+    Map<DayOfWeek, TimeInterval> timeTable;
 
     //setter si getter pentru nume
     public void setName(String name) {
@@ -22,4 +26,8 @@ public abstract class Attraction implements Comparable<Attraction> {
         return this.name.compareTo(other.name);
     }
 
+    public Map<DayOfWeek, TimeInterval> getTimeTable() {
+
+        return timeTable;
+    }
 }

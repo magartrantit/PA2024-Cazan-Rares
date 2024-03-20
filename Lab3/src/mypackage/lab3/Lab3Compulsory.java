@@ -83,13 +83,11 @@ public class Lab3Compulsory {
         graph.addEdge(statue, church);
         graph.addEdge(church, concert);
         graph.addEdge(concert, statue);
-        graph.addEdge(statue2, church2);
-        graph.addEdge(statue2, concert2);
-        graph.addEdge(statue3, church3);
-        graph.addEdge(statue3, church4);
-        graph.addEdge(church2, concert2);
-        graph.addEdge(church3, concert2);
-        graph.addEdge(church4, concert2);
+        graph.addEdge(statue2, statue3);
+        graph.addEdge(concert, concert2);
+        graph.addEdge(church, church2);
+        graph.addEdge(church2, church3);
+        graph.addEdge(church3, church4);
 
         // Degree Descending
         DegreeDescendingHeuristic degreeHeuristic = new DegreeDescendingHeuristic();
@@ -109,6 +107,22 @@ public class Lab3Compulsory {
         System.out.println("\nDSatur Heuristic Coloring:");
         for (Map.Entry<Attraction, Integer> entry : dSaturColoring.entrySet()) {
             System.out.println("Attraction: " + entry.getKey().getName() + ", Color: " + entry.getValue());
+        }
+        System.out.println("\n");
+
+        // Create an array of day names
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+
+        // Afisam zilele in care fiecare atractie va fi vizitata conform primei colorari
+        System.out.println("Degree Heuristic Visit Days:");
+        for (Map.Entry<Attraction, Integer> entry : degreeColoring.entrySet()) {
+            System.out.println("Attraction: " + entry.getKey().getName() + ", Day: " + days[entry.getValue()]);
+        }
+
+        // Afisam zilele in care fiecare atractie va fi vizitata conform celei de-a doua colorari
+        System.out.println("\nDSatur Heuristic Visit Days:");
+        for (Map.Entry<Attraction, Integer> entry : dSaturColoring.entrySet()) {
+            System.out.println("Attraction: " + entry.getKey().getName() + ", Day: " + days[entry.getValue()]);
         }
     }
 }

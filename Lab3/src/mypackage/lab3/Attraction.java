@@ -30,4 +30,9 @@ public abstract class Attraction implements Comparable<Attraction> {
 
         return timeTable;
     }
+
+    //functie pentru a verifica daca atractia e deschisa inntr-o anumita zi
+    public boolean isOpenOnDay(int day) {
+        return this.getTimeTable().containsKey(DayOfWeek.of(day + 1));
+    }
 }

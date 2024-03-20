@@ -7,23 +7,20 @@ public class DegreeDescendingHeuristic implements ColoringHeuristic {
     //override la metoda applyColoring
     @Override
     public Map<Attraction, Integer> applyColoring(Graph graph) {
-        //map care contine atractiile si culorile lor
+        //mapa de atractii si culori
         Map<Attraction, Integer> colorMap = new HashMap<>();
         //lista de atractii
-        List<Attraction> nodes = new ArrayList<>(graph.getAdjacencyList().keySet());
-
-        // sortam atractiile in ordinea descrescatoare a gradului
-        nodes.sort((node1, node2) -> graph.getAdjacencyList().get(node2).size() - graph.getAdjacencyList().get(node1).size());
-
-        // parcurgem atractiile si le coloram
+        List<Attraction> nodes = new ArrayList<>(graph.getNodes());
+        //sortarea atractiilor in functie de grad
+        nodes.sort((node1, node2) -> Integer.compare(graph.getDegree(node2), graph.getDegree(node1)));
         for (Attraction node : nodes) {
-            int color = 1; // incepem cu culoarea 1
-            while (hasColorConflict(graph, node, color, colorMap)) {
-                color++;
+            for (int color = 0; color < nodes.size(); color++) {
+                if (!hasColorConflict(graph, node, color, colorMap) && node.isOpenOnDay(color)) {
+                    colorMap.put(node, color);
+                    break;
+                }
             }
-            colorMap.put(node, color);
         }
-
         return colorMap;
     }
 

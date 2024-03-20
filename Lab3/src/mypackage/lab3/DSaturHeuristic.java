@@ -5,25 +5,23 @@ import java.util.*;
 
 public class DSaturHeuristic implements ColoringHeuristic {
     //override la metoda applyColoring
+
     @Override
     public Map<Attraction, Integer> applyColoring(Graph graph) {
-        //map care contine atractiile si culorile lor
+        //mapa de atractii si culori
         Map<Attraction, Integer> colorMap = new HashMap<>();
         //lista de atractii
-        List<Attraction> nodes = new ArrayList<>(graph.getAdjacencyList().keySet());
-
-        // sortam atractiile in ordinea descrescatoare a gradului si a saturatiei
+        List<Attraction> nodes = new ArrayList<>(graph.getNodes());
+        //sortarea atractiilor in functie de saturatie
         nodes.sort((node1, node2) -> calculateDSatur(graph, node2, colorMap) - calculateDSatur(graph, node1, colorMap));
-
-        // parcurgem atractiile si le coloram
         for (Attraction node : nodes) {
-            int color = 1; // incepem cu culoarea 1
-            while (hasColorConflict(graph, node, color, colorMap)) {
-                color++;
+            for (int color = 0; color < nodes.size(); color++) {
+                if (!hasColorConflict(graph, node, color, colorMap) && node.isOpenOnDay(color)) {
+                    colorMap.put(node, color);
+                    break;
+                }
             }
-            colorMap.put(node, color);
         }
-
         return colorMap;
     }
 

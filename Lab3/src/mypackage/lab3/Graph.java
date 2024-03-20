@@ -17,6 +17,16 @@ public class Graph {
         adjacencyList.computeIfAbsent(node2, k -> new ArrayList<>()).add(node1);
     }
 
+    //metoda care returneaza nodul
+    public Set<Attraction> getNodes() {
+        return adjacencyList.keySet();
+    }
+
+    //metoda care returneaza gradul unui nod
+    public int getDegree(Attraction node) {
+        return adjacencyList.get(node).size();
+    }
+
     //getter care returneaza lista de adiacenta
     public Map<Attraction, List<Attraction>> getAdjacencyList() {
         return adjacencyList;

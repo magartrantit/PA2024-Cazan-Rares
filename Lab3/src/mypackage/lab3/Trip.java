@@ -13,10 +13,19 @@ public class Trip {
 
     //metoda pentru a afisa atractiile vizitabile dar nu si platibile
     public void displayVisitableNotPayable() {
-        attractions.stream()
-                .filter(attraction -> attraction instanceof Visitable && !(attraction instanceof Payable))
-                .sorted(Comparator.comparing(attraction -> ((Visitable) attraction).getOpeningHour(day)))
-                .forEach(System.out::println);
+        List<Attraction> visitableNotPayable = new ArrayList<>();
+
+        for (Attraction attraction : attractions) {
+            if (attraction instanceof Visitable && !(attraction instanceof Payable)) {
+                visitableNotPayable.add(attraction);
+            }
+        }
+
+        visitableNotPayable.sort(Comparator.comparing(attraction -> ((Visitable) attraction).getOpeningHour(day)));
+
+        for (Attraction attraction : visitableNotPayable) {
+            System.out.println(attraction);
+        }
     }
 
     //getter pentru atractii

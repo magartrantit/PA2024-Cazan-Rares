@@ -1,0 +1,23 @@
+
+•
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8®üºƒç1J$0cd12806-f307-4d87-8569-ed047d750b79
+Š
+java:S1854N"BRemove this useless assignment to local variable "destinationMap".(ÇšÜ¹üÿÿÿÿ8¯üºƒç1J$306a050f-718c-45e9-bf69-6ca0a07ea8fd
+ˆ
+java:S1854I"@Remove this useless assignment to local variable "destinations".(®¢Ã–ÿÿÿÿÿ8¯üºƒç1J$a3b2eabc-a7ad-4480-9339-737c5a27f087
+•
+java:S6204."RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8»üºƒç1J$b254c541-0154-471f-9922-8133b93d3195
+•
+java:S62049"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¼üºƒç1J$58538ed0-4516-41c4-a097-806bd31b809f
+r	java:S106="+Replace this use of System.out by a logger.(—Ê»úÿÿÿÿÿ8½üºƒç1J$978413a9-6a82-4eb1-af57-b4cbb87b5659
+m	java:S106A"+Replace this use of System.out by a logger.(½å¥˜8¾üºƒç1J$ec248fac-1124-4503-88e6-0ca90c842047
+m	java:S106D"+Replace this use of System.out by a logger.(™ÿÝŒ8¾üºƒç1J$8f3988ee-08b5-44a0-8d84-40818f18918c
+m	java:S106F"+Replace this use of System.out by a logger.(Ù²„±8¾üºƒç1J$d3773a10-3176-4a9e-8707-3fa2c56c7651
+•
+java:S6204K"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¾üºƒç1J$f48b4735-ebf2-4769-9632-c726d2de77bc
+y
+java:S1481I"1Remove this unused "destinations" local variable.(®¢Ã–ÿÿÿÿÿ8¿üºƒç1J$77ede05f-2371-4f7d-bfc8-d4a675dced83
+{
+java:S1481N"3Remove this unused "destinationMap" local variable.(ÇšÜ¹üÿÿÿÿ8¿üºƒç1J$f3cb0129-5106-4d7a-8827-b28f76a47e0c
+m	java:S106R"+Replace this use of System.out by a logger.(—†È 8Àüºƒç1J$2fcbe7d5-7672-477a-9e6f-861a29523966
+m	java:S106X"+Replace this use of System.out by a logger.(Û¯É…8Àüºƒç1J$1b2c1894-e69d-4e5f-81d8-b5810e8a467a

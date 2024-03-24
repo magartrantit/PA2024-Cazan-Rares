@@ -71,6 +71,7 @@ public class Lab3Compulsory {
 
         //afisam planul de calatorie
         System.out.println("\n");
+        System.out.println("Travel Plan:");
         TravelPlan travelPlan = new TravelPlan();
         travelPlan.addAttraction(DayOfWeek.MONDAY, statue);
         travelPlan.addAttraction(DayOfWeek.THURSDAY, church);

@@ -1,9 +1,9 @@
 package mypackage.lab4;
 
+
 import com.github.javafaker.Faker;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,17 +13,17 @@ public class Main {
 
         // Generam o lista de destinatii comune
         List<String> commonDestinations = new ArrayList<>();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 50; i++) {
             commonDestinations.add(faker.address().fullAddress());
         }
 
         // Generam persoane random
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10000; i++) {
             String name = faker.name().fullName();
             String destination = faker.address().fullAddress();
 
             List<String> passDestinations = new ArrayList<>();
-            for (int j = 0; j < 5; j++) {
+            for (int j = 0; j < 50; j++) {
                     passDestinations.add(commonDestinations.get(j));
             }
 
@@ -69,16 +69,6 @@ public class Main {
         // Sortam pasagerii dupa nume
         passengerTreeSet.forEach(passenger -> System.out.println("NUME: " + passenger.getName() + " DESTINATIE: " + passenger.getDestination()));
 
-        // Lista cu destinatiile prin care soferii trec
-        List<String> destinations = drivers.stream()
-                .map(Driver::getDestination)
-                .collect(Collectors.toList());
-
-        // Mapa cu destinatiile si oamenii care vor sa ajunga acolo
-        Map<String, List<Person>> destinationMap = Stream.concat(drivers.stream(), passengers.stream())
-                .collect(Collectors.groupingBy(Person::getDestination));
-
-
         System.out.println("\nMatch-uri:");
         // Asociem soferii cu pasagerii greedy
         for (Driver driver : drivers) {
@@ -91,6 +81,39 @@ public class Main {
                     break;
                 }
             }
+        }
+
+        Set<Person> maxCardinalitySet = new HashSet<>();
+
+        for (Driver driver : drivers) {
+            boolean hasCommonDestination = false;
+            for (Passenger passenger : passengers) {
+                if (driver.getDestinations().contains(passenger.getDestination())) {
+                    hasCommonDestination = true;
+                    break;
+                }
+            }
+            if (!hasCommonDestination) {
+                maxCardinalitySet.add(driver);
+            }
+        }
+
+        for (Passenger passenger : passengers) {
+            boolean hasCommonDestination = false;
+            for (Driver driver : drivers) {
+                if (driver.getDestinations().contains(passenger.getDestination())) {
+                    hasCommonDestination = true;
+                    break;
+                }
+            }
+            if (!hasCommonDestination) {
+                maxCardinalitySet.add(passenger);
+            }
+        }
+
+        System.out.println("\nMaximum Cardinality Set:");
+        for (Person person : maxCardinalitySet) {
+            System.out.println("NUME: " + person.getName() + " DESTINATIE: " + person.getDestination());
         }
     }
 }

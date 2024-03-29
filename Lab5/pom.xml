@@ -4,21 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jgrapht</groupId>
-            <artifactId>jgrapht-core</artifactId>
-            <version>1.5.1</version>
-        </dependency>
-    </dependencies>
-
     <groupId>org.example</groupId>
-    <artifactId>Lab4</artifactId>
+    <artifactId>Lab5</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -28,4 +15,3 @@
     </properties>
 
 </project>
-

@@ -1,0 +1,9 @@
+
+r	java:S106&"+Replace this use of System.out by a logger.(åŸÕİøÿÿÿÿ8•éÎè1J$0b48e7b9-aabc-4c07-a866-61cdd03673f4
+r	java:S106'"+Replace this use of System.out by a logger.(´‹À®ÿÿÿÿÿ8–éÎè1J$cdfa30ea-3665-462d-936d-7ef40aa7dae7
+m	java:S106("+Replace this use of System.out by a logger.(™Ğï‚8–éÎè1J$e5c32fe9-4ccb-49d0-bdcb-a4449c5dff06
+r	java:S1068"+Replace this use of System.out by a logger.(ØŠ”¾üÿÿÿÿ8œéÎè1J$79b43159-6bc8-40ef-a250-6a831d97bad4
+r	java:S1069"+Replace this use of System.out by a logger.(É‚ä´ùÿÿÿÿ8éÎè1J$739fb4d8-d6f6-4d48-9a89-6e54a082b4c7
+m	java:S106:"+Replace this use of System.out by a logger.(™Ğï‚8éÎè1J$8cb0e6e4-742a-4120-9a9b-5bed788872ee
+€
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8şËèÎè1J$d29244fa-32a3-4573-a434-67e3b696c9e0

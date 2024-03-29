@@ -39,3 +39,28 @@
       cu aceste asocieri.
 
 ## Bonus
+
+Clasa `Bonus` este responsabilă pentru generarea unui set de șoferi și pasageri și pentru rularea algoritmului de
+potrivire.
+
+- `main(String[] args)`: Aceasta este metoda principală a programului. Ea generează un număr de șoferi și pasageri cu
+  destinații aleatoare. Pentru fiecare șofer, se generează o listă de destinații în funcție de o probabilitate de
+  margine. Apoi, se creează o instanță a problemei cu listele de șoferi și pasageri și se rulează algoritmul de
+  potrivire bipartită de greutate maximă. În final, se afișează numărul de potriviri și timpul de rulare al
+  algoritmului.
+
+Caracteristici suplimentare implementate în clasa `Bonus`:
+
+- Folosește probabilitatea de margine atunci când generează lista de destinații pentru fiecare șofer.
+- Generează un număr mare de persoane (5000), ceea ce permite testarea performanței algoritmului de potrivire pe seturi
+  de date mari.
+
+În clasa `Main`, am adăugat următoarele funcționalități:
+
+- `Set<Person> maxCardinalitySet = new HashSet<>();`: Acest set stochează setul de cardinalitate maximă de persoane
+  astfel încât orice șofer și orice pasager pe care îi alegem din acest set, să nu aibă o destinație comună.
+
+- Buclele `for` care urmează adaugă șoferii și pasagerii la `maxCardinalitySet` dacă nu au o destinație comună cu
+  niciunul dintre pasageri sau șoferi, respectiv.
+
+- În final, se afișează setul de cardinalitate maximă, afișând numele și destinația fiecărei persoane din set.

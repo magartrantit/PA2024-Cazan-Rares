@@ -14,6 +14,7 @@ public class Driver extends Person {
     }
 
     // Getter pentru destinatie
+    @Override
     public String getDestination() {
         return super.getDestination();
     }
@@ -24,11 +25,13 @@ public class Driver extends Person {
     }
 
     // Getter pentru nume
+    @Override
     public String getName() {
         return super.name;
     }
 
     // Getter pentru varsta
+    @Override
     public int getAge() {
         return super.age;
     }

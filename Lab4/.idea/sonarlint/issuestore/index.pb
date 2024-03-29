@@ -13,3 +13,7 @@ Y
 )src/main/java/mypackage/lab4/Problem.java,5\2\529e351553edc79c06c5bcd31f5164806b9f5836
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+X
+(src/main/java/mypackage/lab4/Bounus.java,7\9\791747884a70ebd3b14c4ad9ebde6bf011785c67
+W
+'src/main/java/mypackage/lab4/Bonus.java,e\3\e3f50a2c78a1d5ab53ced8d3485b535f80fa905a

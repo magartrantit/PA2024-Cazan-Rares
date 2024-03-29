@@ -8,6 +8,7 @@ public class Passenger extends Person {
     }
 
     // Getter pentru destinatie
+    @Override
     public String getDestination() {
         return super.getDestination();
     }

@@ -35,6 +35,9 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Shell shell = new Shell(masterDirectory);
+        shell.start();
     }
 
 }

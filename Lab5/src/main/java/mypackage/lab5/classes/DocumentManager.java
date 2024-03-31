@@ -26,10 +26,24 @@ public class DocumentManager {
         Files.write(path, document.content());
     }
 
+    // Getter pentru directorul master
+    public String getMasterDirectory() {
+        return masterDirectory;
+    }
+
     // Metoda pentru obtinerea unui document
-    public Document getDocument(Person person, String documentName, String format) throws IOException {
-        Path path = Paths.get(masterDirectory, person.uniqueId(), documentName + "." + format);
+    public Document getDocument(Person person, String documentName) throws IOException {
+        Path path = Paths.get(masterDirectory, person.uniqueId(), documentName);
         byte[] content = Files.readAllBytes(path);
+        String format = getFileExtension(path);
         return new Document(documentName, format, content);
+    }
+
+
+    // Metoda pentru obtinerea extensiei unui fisier
+    private String getFileExtension(Path path) {
+        String fileName = path.getFileName().toString();
+        int dotIndex = fileName.lastIndexOf('.');
+        return (dotIndex == -1) ? "" : fileName.substring(dotIndex + 1);
     }
 }

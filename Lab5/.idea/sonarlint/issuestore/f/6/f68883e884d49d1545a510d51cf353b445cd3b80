@@ -1,4 +1,6 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8ì¡®ç1J$ecca7076-2ee8-4f2f-a5bf-368cf33b0f1f
+r	java:S106"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8ì¡®ç1J$7957d408-e673-4731-8cb9-5e3d758462a6
 •
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8©á¸›é1J$ab92f8c3-1e99-43ad-9f45-4a396fc0a9ca
+java:S6204("RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8©á¸›é1J$a446b0c4-21f2-46e6-90a9-6c8727af7970
+w
+java:S2864S"4Iterate over the "entrySet" instead of the "keySet".(×º——8ìòÌæë1J$e4025b73-9a4d-42cd-bf01-3ca8bfaf7785

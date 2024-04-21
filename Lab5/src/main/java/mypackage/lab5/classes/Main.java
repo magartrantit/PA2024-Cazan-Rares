@@ -6,6 +6,9 @@ import mypackage.lab5.records.Person;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,8 +39,21 @@ public class Main {
             e.printStackTrace();
         }
 
+        //lista pentru grupuri
+        List<Set<Person>> maximalGroups = repository.findMaximalGroups();
+
+        //afisam grupurile
+        for (int i = 0; i < maximalGroups.size(); i++) {
+            System.out.println("Group " + (i + 1) + ":");
+            for (Person person : maximalGroups.get(i)) {
+                System.out.println(person.name());
+            }
+            System.out.println();
+        }
+
         Shell shell = new Shell(masterDirectory);
         shell.start();
-    }
 
+
+    }
 }

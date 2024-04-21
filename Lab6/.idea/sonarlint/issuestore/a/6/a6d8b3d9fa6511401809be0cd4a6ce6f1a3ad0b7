@@ -1,0 +1,17 @@
+
+j
+java:S1659""Declare "cols" on a separate line.(§ §εÿÿÿÿÿ8ΪΨήκλ1J$853cca44-5318-4d38-8967-bd40e9ec4b24
+s
+java:S1948"0Make "gameBoardImage" transient or serializable.(Άªό8σλμκλ1J$41740a52-84e0-4fdb-be28-8b64ce8eac97
+
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(°Γ―ϊÿÿÿÿ8ήΨήκλ1J$96448a1d-bb77-414e-bff7-9de7bdf4eb50
+r	java:S106U"+Replace this use of System.out by a logger.(±Σΐτψÿÿÿÿ8ζΨήκλ1J$6c7b29ee-2401-4c57-8fba-0c2bf8e7ce44
+m	java:S106W"+Replace this use of System.out by a logger.(£Σΐ«8ζΨήκλ1J$8c34dd69-10ea-499c-ab86-ff65e458b38c
+r	java:S106]"+Replace this use of System.out by a logger.(ΤΣΆωÿÿÿÿ8ηΨήκλ1J$c2e2295c-8c9c-4f9e-8fa6-04c831b23d6c
+m	java:S106h"+Replace this use of System.out by a logger.(οΩ•²8ηΨήκλ1J$3d4eb8be-68a5-4002-927a-ccee25de53e8
+–
+java:S3776…"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Ο®8κΨήκλ1J$3a38fbed-d31c-4540-97e7-22969ca5c51c
+s	java:S106ή"+Replace this use of System.out by a logger.(µΌ’Ίόÿÿÿÿ8οΨήκλ1J$c81e13f8-1df2-4f25-beec-6b4943fc7196
+n	java:S106α"+Replace this use of System.out by a logger.(§ψηϋ8οΨήκλ1J$d2360ee0-f4d6-48e4-b045-fb2a48c5534a
+q
+java:S1068")Remove this unused "frame" private field.(ΓΑ¦‡ÿÿÿÿÿ8ςΨήκλ1J$a1749787-509a-4592-bc08-bcb7f456e6cb

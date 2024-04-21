@@ -1,0 +1,7 @@
+
+m	java:S106/"+Replace this use of System.out by a logger.(—îŞö8òèÛæë1J$f41a3902-f11b-4abd-8e04-c19d2130a620
+m	java:S1061"+Replace this use of System.out by a logger.(êôÃÅ8óèÛæë1J$dbd29572-6bbd-42ee-b059-24e14b1dbcf4
+r	java:S1063"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8óèÛæë1J$df103d23-31ee-4b53-b180-0895c0c3f58f
+r
+java:S1128
+"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8§¸Ûæë1J$2995eedd-bf3c-49ce-919f-bfb35a6c0112

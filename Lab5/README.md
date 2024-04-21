@@ -31,3 +31,30 @@
 10. `ReportCommand.java`: Această clasă implementează interfața `Command` și este utilizată pentru a genera un raport al
     documentelor din depozit. Metoda `execute()` a acestei clase accesează documentele din depozit și generează un
     raport folosind o clasă de raportare corespunzătoare.
+
+## Bonus
+
+### Încărcarea abilităților și găsirea grupurilor maxime
+
+Au fost implementate două metode suplimentare în clasa `Repository` pentru a gestiona cerințele specifice.
+
+#### Metoda loadAbilities
+
+Metoda `loadAbilities` este utilizată pentru a încărca abilitățile fiecărei persoane dintr-un fișier Excel
+numit `Lab7.xlsx` din directorul principal. Biblioteca Apache POI este utilizată pentru a citi acest document Microsoft.
+
+Metoda parcurge fiecare rând în foaia Excel, sărind peste primul rând, deoarece se presupune că este antetul. Pentru
+fiecare rând, preia ID-ul și abilitățile persoanei, creează un obiect `Person` și adaugă persoana și abilitățile sale în
+harta `personAbilities`.
+
+#### Metoda findMaximalGroups
+
+Metoda `findMaximalGroups` este utilizată pentru a găsi toate grupurile maxime de persoane astfel încât oricare doi
+angajați dintr-un grup să aibă cel puțin o abilitate comună. Aceasta se bazează pe datele încărcate de
+metoda `loadAbilities`.
+
+Metoda parcurge fiecare persoană din harta `personAbilities`. Pentru fiecare persoană, verifică dacă poate fi adăugată
+la un grup existent (adică dacă toate persoanele din grup au cel puțin o abilitate comună cu persoana). Dacă persoana
+poate fi adăugată la un grup existent, este adăugată. Dacă nu, se creează un nou grup cu persoana.
+
+Metoda returnează o listă cu toate grupurile maxime găsite.

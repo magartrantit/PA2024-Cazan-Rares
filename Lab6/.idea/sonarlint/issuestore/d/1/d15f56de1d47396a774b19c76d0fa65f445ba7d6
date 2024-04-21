@@ -1,0 +1,7 @@
+
+r	java:S106'"+Replace this use of System.out by a logger.(²ÌÂÍüÿÿÿÿ8°ÅÚêë1J$ae8eca20-d911-4289-af9d-d21956b79054
+m	java:S106*"+Replace this use of System.out by a logger.(æÜù§8±ÅÚêë1J$02090676-942d-4250-bdc4-8a85e00ed4f5
+r	java:S106="+Replace this use of System.out by a logger.(Á—âÂşÿÿÿÿ8³ÅÚêë1J$6f178084-781e-470f-8ee1-448b427bb296
+r	java:S106@"+Replace this use of System.out by a logger.(µˆâóùÿÿÿÿ8³ÅÚêë1J$b92723ad-3f24-47f5-9734-f4185391bcbd
+t
+java:S1602E",Remove useless curly braces around statement(ÒÌâ–øÿÿÿÿ8´ÅÚêë1J$9682c65f-c396-465a-b2e3-61e53ce21830

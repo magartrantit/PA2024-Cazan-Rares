@@ -1,5 +1,21 @@
 
-S
-#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+O
+src/main/java/classes/Main.java,b\e\be6011c096f8b6bf1922e05f35846b1af1337e12
+T
+$src/main/java/classes/MainFrame.java,4\7\47a197e1e23a9303db00d9534840b158ec469fc9
+W
+'src/main/java/classes/ControlPanel.java,d\1\d15f56de1d47396a774b19c76d0fa65f445ba7d6
+W
+'src/main/java/classes/DrawingPanel.java,a\6\a6d8b3d9fa6511401809be0cd4a6ce6f1a3ad0b7
+V
+&src/main/java/classes/ConfigPanel.java,3\4\3419dfefb25f95a9c08a4ac172a610295a61e19b
+P
+ src/main/java/classes/Stick.java,7\3\7380c8e1f985a17ade29c543eca927164d6c9e22
+O
+src/main/java/classes/Node.java,4\b\4ba64af659c52c3359cb0505498cc6ef50e691ad
+P
+ src/main/java/classes/Stone.java,d\0\d0cd513ad4a40312ba38a182b7b446ffe2ecd60a
+T
+$src/main/java/classes/GameBoard.java,2\4\24dd349239a323560c1cef2e5cfa353071c76028
